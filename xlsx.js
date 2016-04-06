@@ -5118,6 +5118,7 @@ function update_xfext(xf, xfext) {
 		switch(xfe[0]) { /* 2.5.108 extPropData */
 			case 0x04: break; /* foreground color */
 			case 0x05: break; /* background color */
+			case 0x06:	//I got an exception
 			case 0x07: case 0x08: case 0x09: case 0x0a: break;
 			case 0x0d: break; /* text color */
 			case 0x0e: break; /* font scheme */
